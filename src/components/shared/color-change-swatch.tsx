@@ -1,6 +1,7 @@
 import clsx from 'clsx';
-import { MouseEventHandler } from 'react';
+import { Dispatch, MouseEventHandler } from 'react';
 import Button from './button';
+import { AdjustColorActions } from '../../color-reducer';
 
 type ColorChangeSwatchProps = {
   hexColor: string;
